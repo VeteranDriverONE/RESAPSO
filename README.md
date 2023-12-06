@@ -8,8 +8,9 @@ Regarding the runtime environment, Matlab 2018a meets all requirements except fo
 
 # RESAPSO for landslide
 
-RESAPSO is a meta-heuristic optimization algorithm that copes with computationally expensive computational problems, performing optimization with fewer evaluations. Therefore its can be used to optimize machine learning models. In our paper, RESAPSO is used to optimize the feature selection and machine learning model hyperparameters for the landslide problem.
-main.m is the program entry, resapso_onModule_v2o.m is RESAPSO and landslide_main is the python based machine learning model. We build the machine learning model in python language and call the python methods in matlab. We use python version 3.6. hybrid programming of python and matlab can be found in Matlab documentation.
+RESAPSO is a meta-heuristic optimization algorithm that copes with computationally expensive optimization problems. Therefore its can be used to optimize machine learning models. In our paper, RESAPSO is used to optimize the feature selection and machine learning model hyperparameters for the landslide problem.
+
+main.m is the program entry, resapso_onModule_v2o.m is RESAPSO and landslide_main is the python based machine learning model. We build the machine learning model in python language and call the python methods in matlab. We use python version 3.6. The hybrid programming technology of python and matlab can be found in Matlab documentation.
 
 # Simple to understand
 
